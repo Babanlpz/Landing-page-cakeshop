@@ -330,3 +330,47 @@ header .navigation a:hover,
 .product-box .bx:hover {
   background: var(--accent);
 }
+
+/* ################### */
+/* Avis*/
+/* ################### */
+
+.reviews-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, auto));
+  gap: 1rem;
+}
+
+.review-box {
+  background: var(--light);
+  border-bottom: 3px solid var(--accent2);
+  text-align: center;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+  padding: 3rem 1rem;
+  cursor: pointer;
+}
+
+.review-box:hover {
+  background: #e2e2e2;
+}
+
+.review-box .stars {
+  font-size: 0.8rem;
+  color: orange;
+}
+
+.review-box img {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.review-box h3 {
+  font-size: 1.2rem;
+  margin: 1rem 0;
+}
+
+.review-box p {
+  font-size: 13px;
+}
