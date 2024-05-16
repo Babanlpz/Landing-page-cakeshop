@@ -480,3 +480,17 @@ header .navigation a:hover,
 .contact-form form textarea::placeholder {
   color: var(--accent2);
 }
+
+/* ##################### */
+/*  Footer */
+/* ##################### */
+
+.copy {
+  padding: 2rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+  color: var(--light);
+  background: var(--accent2);
+}
