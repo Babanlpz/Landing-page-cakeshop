@@ -494,3 +494,50 @@ header .navigation a:hover,
   color: var(--light);
   background: var(--accent2);
 }
+
+/* ################### */
+/* breakpoints*/
+/* ################### */
+
+@media screen and (max-width: 991px) {
+  header {
+    padding: 18px 4%;
+  }
+  section {
+    padding: 50px 4%;
+  }
+}
+
+@media screen and (max-width: 880px) {
+  header {
+    padding: 11px 4%;
+  }
+
+  #burger-menu {
+    display: block;
+  }
+
+  .navigation {
+    padding: 1rem;
+    position: absolute;
+    top: -700px;
+    left: 0;
+    background: var(--bg);
+    flex-direction: column;
+    width: 100%;
+    transition: top 0.2s ease-in-out;
+  }
+
+  .navigation.active {
+    top: 100%;
+  }
+
+  .navigation a {
+    display: block;
+    margin: 1rem 0;
+  }
+
+  .home-content {
+    text-align: center;
+  }
+}
